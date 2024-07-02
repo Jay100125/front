@@ -20,7 +20,7 @@ const Navbar = () => {
                             onClick={() => handleLinkClick('home')}
                             style={{color:"white"}}
                         >
-                            AgriApex AI
+                            Cropify
                         </Link>
                     </h3>
                 <ul id='navbar'>
@@ -43,7 +43,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <GoogleTranslate /> 
+                       
                     </li>
                 </ul>
             </nav>

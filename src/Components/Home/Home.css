@@ -41,7 +41,6 @@
     border-radius: 8px;
     margin-right: 70px;
 }
-
 form {
     display: flex;
     flex-direction: column;
@@ -60,7 +59,7 @@ button {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #EF9C66;
+    background-color: #0e0d0d;
     color: white;
     border: none;
     border-radius: 4px;
@@ -70,7 +69,7 @@ button {
 }
 
 button:hover {
-    background-color: #e8c76d;
+    background-color: #797978;
 }
 
 input:focus, button:focus {
@@ -105,6 +104,7 @@ input:focus, button:focus {
 .item-hints {
   /* height: 500px; */
   width: 10%;
+  color: whitesmoke;
   /* margin: 250px auto; */
 }
 .item-hints .hint {
@@ -257,9 +257,10 @@ input:focus, button:focus {
   top: 85px;
   left: 50%;
   margin-left: 56px;
+  color: whitesmoke;
 }
 .item-hints .hint-content {
-  color: #000000;
+  color: #d8d3d3;
   width: 300px;
   position: absolute;
   z-index: 5;
@@ -269,12 +270,12 @@ input:focus, button:focus {
   -webkit-transition: opacity 0.7s ease, visibility 0.7s ease;
   transition: opacity 0.7s ease, visibility 0.7s ease;
   pointer-events: none;
-  color: #000000;
+  color: #eeeded;
   visibility: hidden;
   pointer-events: none;
 }
 .item-hints .hint:hover .hint-content {
-  color: #000000;
+  color: #d5d4d4;
   width: 300px;
   position: absolute;
   z-index: 5;
@@ -284,7 +285,7 @@ input:focus, button:focus {
   -webkit-transition: opacity 0.7s ease, visibility 0.7s ease;
   transition: opacity 0.7s ease, visibility 0.7s ease;
   pointer-events: none;
-  color: #000000;
+  color: #eae8e8;
   visibility: hidden;
   pointer-events: none;
 }
@@ -293,7 +294,7 @@ input:focus, button:focus {
   bottom: 0;
   left: 0;
   content: "";
-  background-color: #000000;
+  background-color: #dcdada;
   height: 1px;
   position: absolute;
   transition: width 0.4s;
@@ -301,6 +302,7 @@ input:focus, button:focus {
 .item-hints .hint:hover .hint-content::before {
   width: 180px;
   transition: width 0.4s;
+  color: whitesmoke;
 }
 .item-hints .hint-content::after {
   -webkit-transform-origin: 0 50%;
@@ -311,7 +313,7 @@ input:focus, button:focus {
   left: 0;
   width: 80px;
   content: "";
-  background-color: #000000;
+  background-color: #f4eeee;
   height: 1px;
   position: absolute;
   opacity: 1;
@@ -320,6 +322,8 @@ input:focus, button:focus {
   transition-delay: 0s;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+  color: whitesmoke;
+
 }
 .item-hints .hint:hover .hint-content::after {
   opacity: 1;
@@ -330,3 +334,5 @@ input:focus, button:focus {
   left: 50%;
   margin-left: 56px;
 }
+
+

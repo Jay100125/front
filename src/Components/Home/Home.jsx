@@ -332,7 +332,7 @@ const Home = () => {
                 alignItems:"center",
                 width:"fit-content"
             }}>
-                <h1>{crop ? `Your soil is suitable for growing ${crop} !` : "Enter the measures of your soil"}</h1>
+                <h1  style={{color :"rgb(244, 241, 241);"}}>{crop ? `Your soil is suitable for growing ${crop} !` : "Enter the measures of your soil"}</h1>
                 <div className='for-img'>
                     <div className='slider' ref={sliderRef}>
                         {crop

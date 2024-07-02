@@ -9,16 +9,16 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #EF9C66;
+    background-color: rgb(42, 39, 39);
     padding: 15px 5%;
     flex-wrap: wrap;
 }
 a{
-    color: white;
+    color: rgb(244, 241, 241);
 }
 h3 {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: rgb(244, 241, 241);
 }
 
 #navbar {
@@ -38,7 +38,7 @@ h3 {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #ffffff;
+    color: rgb(244, 241, 241);
     transition: 0.3s ease-in-out;
 }
 

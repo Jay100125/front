@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AgriApex AI</title>
+  <title>Cropify</title>
 </head>
 
 <body>
@@ -16,16 +16,16 @@
 
   <script>
     window.watsonAssistantChatOptions = {
-      integrationID: "6728a952-e82c-457a-8415-401ea3ad4713", // The ID of this integration.
+      integrationID: "24e9fae6-6e67-4515-bf58-312bd98abb21", // The ID of this integration.
       region: "us-south", // The region your integration is hosted in.
-      serviceInstanceID: "030b5496-f1d4-48b1-a498-b3c382f70608", // The ID of your service instance.
+      serviceInstanceID: "6dc919da-eca1-4aa0-9cc2-0fa43f75c657", // The ID of your service instance.
       onLoad: async (instance) => { await instance.render(); }
     };
     setTimeout(function(){
       const t=document.createElement('script');
       t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
       document.head.appendChild(t);
-    });
+    });
   </script>
 </body>
 
